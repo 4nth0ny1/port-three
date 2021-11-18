@@ -45,5 +45,9 @@ body {
     width: 100%;
 }
 
-
+.carousel {
+    margin: 0 auto;
+    width: 560px;
+    height: 315px;
+}
 
