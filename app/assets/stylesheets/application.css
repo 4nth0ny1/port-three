@@ -45,8 +45,29 @@ body {
     width: 100%;
 }
 
+
+
+
+
+
+.home-about {
+    height: 500px;
+    background: rgb(97, 82, 228);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
+
+
 .carousel {
-    margin: 0 auto;
+    margin: 25px auto;
     width: 560px;
     height: 315px;
 }
