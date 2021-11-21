@@ -48,8 +48,6 @@ body {
 
 
 
-
-
 .home-about {
     height: 500px;
     background: rgb(97, 82, 228);
@@ -62,13 +60,8 @@ body {
 
 }
 
-
-
-
-
 .carousel {
     margin: 25px auto;
     width: 560px;
     height: 315px;
 }
-
