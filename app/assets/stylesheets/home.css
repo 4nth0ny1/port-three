@@ -1,0 +1,140 @@
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    width: 1024px;
+}
+
+.h1-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+}
+
+.hero-h1 {
+    font-size: 65px;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.carousel {
+    margin: 25px auto;
+    width: 560px;
+    height: 315px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .hero-image {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .h1-container {
+        height: 200px;
+    }
+
+    .hero-h1 {
+        font-size: 48px;
+    }
+
+    .hero-h1, 
+    .hero-h3 {
+        width: 400px;
+        text-align: center;
+    }
+
+    .home-about {
+        background: rgb(112, 28, 248);
+        color: white;
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-about-header, 
+    .home-about-description {
+        text-align: center;
+    }
+
+    .slide {
+        height: 300px;
+        width: 300px;
+
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .hero-container {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .hero-image {
+        width: 400px;
+        height: 400px;
+        text-align: center;
+    }
+
+    .h1-container {
+        height: 200px;
+    }
+
+    .hero-h1 {
+        font-size: 48px;
+    }
+
+    .hero-h1, 
+    .hero-h3 {
+        width: 400px;
+        text-align: center;
+    }
+
+    .home-about {
+        background: rgb(112, 28, 248);
+        color: white;
+        width: 100%;
+        height: 500px;
+    }
+
+    .slide {
+        height: 300px;
+        width: 300px;
+
+    }
+}    
+
+@media only screen and (min-width: 1024px) {
+    .hero-container {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .hero-container  {
+        background-color: red;
+    }
+}
