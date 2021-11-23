@@ -5,8 +5,12 @@
 }
 
 .navbar {
-    background: transparent;
-    
+    background: none;
+}
+
+.navbar.transparent {
+    z-index: 2;
     border-bottom: 1px solid black;
+    background: rgba(0,0,0,0.4);
 }
 
