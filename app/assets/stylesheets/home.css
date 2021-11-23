@@ -1,35 +1,3 @@
-.hero-container {
-    display: flex;
-    flex-direction: row;
-    margin: 0px auto;
-    width: 1024px;
-}
-
-.h1-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-}
-
-.hero-img-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 500px;
-    height: 500px;
-}
-
-.hero-h1 {
-    font-size: 65px;
-}
-
-.hero-image {
-    width: 100%;
-}
-
 .carousel {
     margin: 25px auto;
     width: 560px;
@@ -40,29 +8,22 @@
 @media only screen and (max-width: 768px) {
     .hero-container {
         display: flex;
-        flex-direction: column-reverse;
-
+        justify-content: center;
+        z-index: 0;
+        position: relative;
+        height: 500px;
     }
 
-    .hero-image {
-        width: 400px;
-        height: 400px;
+    .website-title {
         text-align: center;
+        color: white;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 50%;
     }
 
-    .h1-container {
-        height: 200px;
-    }
-
-    .hero-h1 {
-        font-size: 48px;
-    }
-
-    .hero-h1, 
-    .hero-h3 {
-        width: 400px;
-        text-align: center;
-    }
 
     .home-about {
         background: rgb(112, 28, 248);
@@ -77,64 +38,104 @@
     .home-about-header, 
     .home-about-description {
         text-align: center;
+        font-size: 36px;
     }
 
     .slide {
         height: 300px;
         width: 300px;
-
+        margin-bottom: 100px;
     }
 }
 
 @media only screen and (min-width: 769px) {
     .hero-container {
         display: flex;
-        flex-direction: column-reverse;
-
+        justify-content: center;
+        z-index: 0;
+        position: relative;
+        height: 500px;
     }
 
-    .hero-image {
-        width: 400px;
-        height: 400px;
+    .website-title {
         text-align: center;
+        color: white;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 50%;
     }
 
-    .h1-container {
-        height: 200px;
-    }
-
-    .hero-h1 {
-        font-size: 48px;
-    }
-
-    .hero-h1, 
-    .hero-h3 {
-        width: 400px;
-        text-align: center;
-    }
 
     .home-about {
         background: rgb(112, 28, 248);
         color: white;
         width: 100%;
         height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .home-about-header, 
+    .home-about-description {
+        text-align: center;
+        font-size: 36px;
     }
 
     .slide {
         height: 300px;
         width: 300px;
-
+        margin-bottom: 100px;
     }
-}    
+}
+
 
 @media only screen and (min-width: 1024px) {
     .hero-container {
-        background-color: yellow;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .website-title {
+        text-align: center;
+        color: white;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 50%;
     }
 }
 
 @media only screen and (min-width: 1440px) {
-    .hero-container  {
-        background-color: red;
+    .hero-container {
+        width: 100%;
+        height: 100vh;
+        z-index: 0;
+        position: relative;
+    }
+
+    video {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        min-height: 100%;
+        height: 90vh;
+    }
+
+    .website-title {
+        text-align: center;
+        color: white;
+        z-index: 1;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 50%;
     }
 }
