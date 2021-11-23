@@ -45,23 +45,94 @@ body {
     width: 100%;
 }
 
-
-
-
-.home-about {
-    height: 500px;
-    background: rgb(97, 82, 228);
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
 .carousel {
     margin: 25px auto;
     width: 560px;
     height: 315px;
+}
+
+
+/* about page */
+
+@media only screen and (max-width: 768px) {
+    .about-headline-container, 
+    .about-second-section, 
+    .about-third-section, 
+    .about-fourth-section,
+    .about-fifth-section {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-second-section, 
+    .about-third-section, 
+    .about-fourth-section, 
+    .about-fifth-section {
+        border-top: 1px solid black;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-headline, 
+    .about-second-section-text, 
+    .about-third-section-text, 
+    .about-fourth-section-text, 
+    .about-fifth-section-text {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 769px) {
+    .about-headline-container, 
+    .about-second-section, 
+    .about-third-section, 
+    .about-fourth-section,
+    .about-fifth-section {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .about-second-section, 
+    .about-third-section, 
+    .about-fourth-section, 
+    .about-fifth-section {
+        border-top: 1px solid black;
+        height: 300px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-headline, 
+    .about-second-section-text, 
+    .about-third-section-text, 
+    .about-fourth-section-text, 
+    .about-fifth-section-text {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .about-headline {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .about-headline {
+        background-color: red;
+    }
 }
